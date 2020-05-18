@@ -32,7 +32,7 @@ H_l = np.array([
     [0.1667,   0.6667,   0.1667]])
 
 # KP detector / matcher
-detector = cv.ORB(1000)
+detector = cv.ORB_create(1000)
 matcher = cv.BFMatcher(cv.NORM_HAMMING)
 
 
